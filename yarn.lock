@@ -7743,6 +7743,11 @@
   "resolved" "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
   "version" "2.1.0"
 
+"pg-connection-string@^2.5.0":
+  "integrity" "sha512-r5o/V/ORTA6TmUnyWZR9nCj1klXCO2CEKNRlVuJptZe85QuhFayC7WeMic7ndayT5IRIR0S0xFxFi2ousartlQ=="
+  "resolved" "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.5.0.tgz"
+  "version" "2.5.0"
+
 "pg-connection-string@0.1.3":
   "integrity" "sha1-2hhHsglA5C7hSSvq9l1J2RskXfc="
   "resolved" "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-0.1.3.tgz"
