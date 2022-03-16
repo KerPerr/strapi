@@ -16,17 +16,6 @@
       "type": "string",
       "required": true
     },
-    "poster": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "date": {
       "type": "integer",
       "required": true
@@ -36,6 +25,9 @@
       "relation": "manyToMany",
       "target": "api::actor.actor",
       "inversedBy": "movies"
+    },
+    "poster": {
+      "type": "string"
     }
   }
 }
