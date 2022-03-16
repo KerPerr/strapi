@@ -4,7 +4,8 @@
   "info": {
     "singularName": "movie",
     "pluralName": "movies",
-    "displayName": "Movie"
+    "displayName": "Movie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,19 +17,25 @@
       "required": true
     },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "date": {
       "type": "integer",
       "required": true
+    },
+    "actors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::actor.actor",
+      "inversedBy": "movies"
     }
   }
 }
